@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Estilos personalizados */
+        .contact-form {
+            position: fixed;
+            top: 60%;
+            left: 20px;
+            transform: translateY(-50%);
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        .big-text {
+            font-size: 36px;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+            color: #007bff;
+            margin-right: 300px;
+            margin-top: 200px;
+          }
+
+        .contact-form h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            border-radius: 3px;
+        }
+
+        .contact-form button {
+            border-radius: 3px;
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        /* Aplica la fuente personalizada al texto de la barra de navegación */
+        .navbar-brand,
+        .nav-link {
+            font-family: 'Roboto Slab', sans-serif;
+            /* Reemplaza 'Open Sans' con el nombre de la fuente personalizada que deseas utilizar */
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .custom-navbar {
+            background-color: #FFDAB9;
+        }
+
+        .custom-footer {
+            background-color: #FFDAB9;
+            padding: 20px 0;
+            color: white;
+            margin-top: auto;
+        }
+
+        .custom-footer .social-icons i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        .custom-footer .attribution {
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container">
+            <a class="navbar-brand nav-link" href="#">Upcycled Elegance</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bloc.html">Bloc</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="big-text">
+        <p>Upcycled Elegance
+        </p>
+        <p class="mr-5">English A2.2
+        </p>
+      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-1">
+                <div class="contact-form">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
